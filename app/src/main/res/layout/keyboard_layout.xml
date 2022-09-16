@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2022 Ethan Halsall
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center|top"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:showDividers="middle"
+        android:id="@+id/key_row_1"
+
+        android:divider="@drawable/divider5p">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_q"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="Q"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_w"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="W"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_e"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="E"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_r"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="R"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_t"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="T"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_y"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="Y"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_u"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="U"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_i"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="I"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_o"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="O"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_p"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="P"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:gravity="center"
+        android:id="@+id/key_row_2"
+
+        android:divider="@drawable/divider5p">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_a"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="A"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_s"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="S"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_d"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="D"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_f"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="F"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_g"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="G"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_h"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="H"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_j"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="J"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_k"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="K"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_l"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="L"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:gravity="center"
+        android:id="@+id/key_row_3"
+
+        android:divider="@drawable/divider5p">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_enter"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/key_height"
+            android:textSize="15sp"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="Enter"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_z"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="Z"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_x"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="X"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_c"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="C"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_v"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="V"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_b"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="B"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_n"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="N"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_m"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            android:padding="0dp"
+            android:text="M"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_back"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/key_height"
+            android:textSize="@dimen/key_text_size"
+            app:cornerRadius="5dp"
+            app:iconPadding="0dp"
+            app:iconSize="30dp"
+            app:iconGravity="textStart"
+            app:icon="@drawable/ic_backspace" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
