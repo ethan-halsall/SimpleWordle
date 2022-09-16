@@ -98,9 +98,8 @@ class MainActivity : AppCompatActivity() {
             ) { isWord ->
 
                 if (isWord){
-                    val matches = checkWord(word, guess, rowViews)
-                    if (matches){
-                        println(matches)
+                    val isMatch = checkWord(word, guess, rowViews)
+                    if (isMatch){
                         createDialog(true)
                     }
                     row += 1
