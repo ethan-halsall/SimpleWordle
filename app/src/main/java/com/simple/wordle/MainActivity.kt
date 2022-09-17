@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity() {
 
         viewModel = ViewModelProvider(this)[WordViewModel::class.java]
 
-
         // Setup game
         setup()
 
@@ -101,13 +100,14 @@ class MainActivity : AppCompatActivity() {
                     val isMatch = checkWord(word, guess, rowViews)
                     if (isMatch){
                         createDialog(true)
-                    }
-                    row += 1
-                    if(row <= 6) {
-                        rowViews = getRowViews(row)
-                        guess = ""
                     } else {
-                        createDialog(false)
+                        row += 1
+                        if (row <= 6) {
+                            rowViews = getRowViews(row)
+                            guess = ""
+                        } else {
+                            createDialog(false)
+                        }
                     }
                 }
 
